@@ -1,0 +1,32 @@
+$primary: rgb(251, 168, 34);
+$primary-overlay: rgba(251, 168, 34, 0.8);
+
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px $primary;
+  opacity: 0.9;
+  background: #fff;
+
+  .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+  }
+}
+
+#showcase {
+  position: relative;
+  background: url('../img/header-bg.jpg');
+  min-height: 600px;
+
+  .primary-overlay {
+    background: $primary-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

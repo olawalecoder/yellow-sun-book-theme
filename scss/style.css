@@ -1,0 +1,24 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #fba822;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+#showcase {
+  position: relative;
+  background: url("../img/header-bg.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(251, 168, 34, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=style.css.map */
