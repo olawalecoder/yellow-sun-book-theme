@@ -1,5 +1,6 @@
 $primary: rgb(251, 168, 34);
 $primary-overlay: rgba(251, 168, 34, 0.8);
+$dark-overlay: rgba(8, 8, 8, 0.9);
 
 body {
   margin-top: 105px;
@@ -18,11 +19,11 @@ body {
 
 #showcase {
   position: relative;
-  background: url('../img/header-bg.jpg');
-  min-height: 600px;
+  background: url('../img/mountains.jpg');
+  height: 600px;
 
   .primary-overlay {
-    background: $primary-overlay;
+    background: $dark-overlay;
     position: absolute;
     top: 0;
     left: 0;
