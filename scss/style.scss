@@ -38,9 +38,24 @@ body {
   border-bottom: 2px solid #ddd;
 }
 
-// .accordion-button{
-//   display:block;
-// }
+#authors {
+  img {
+    margin-top: -50px;
+  }
+
+  .card:hover {
+    background: $primary;
+    color: #fff;
+    .fab {
+      color: #fff;
+    }
+    h5 {
+      --bs-text-opacity: 1;
+      color: inherit!important;
+    }
+  }
+
+}
 
 @media (max-width: 768px) {
   #showcase {

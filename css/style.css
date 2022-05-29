@@ -26,6 +26,17 @@ body {
   margin: auto;
   border-bottom: 2px solid #ddd; }
 
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background: #fba822;
+  color: #fff; }
+  #authors .card:hover .fab {
+    color: #fff; }
+  #authors .card:hover h5 {
+    --bs-text-opacity: 1;
+    color: inherit !important; }
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px; }
