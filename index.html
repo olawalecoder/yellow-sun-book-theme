@@ -65,7 +65,7 @@
                 <i class="fas fa-arrow-right"></i> Read More
               </a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 d-flex justify-content-center">
               <img
                 src="img/book-cover-1.jpg"
                 width="320"
@@ -175,7 +175,7 @@
 
             <!-- Accordian -->
             <div class="accordion" id="aboutBook">
-              <div class="accordion-item">
+              <div class="accordion-item mb-2">
                 <h2 class="accordion-header" id="aboutBookOne">
                   <button
                     class="accordion-button d-block text-center"
@@ -205,7 +205,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div class="accordion-item mb-2">
                 <h2 class="accordion-header" id="aboutBookTwo">
                   <button
                     class="accordion-button text-center d-block collapsed"
@@ -235,7 +235,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div class="accordion-item mb-2">
                 <h2 class="accordion-header" id="aboutBookThree">
                   <button
                     class="accordion-button collapsed d-block text-center"
@@ -434,16 +434,74 @@
     <section id="contact" class="py-5 bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-lg-9">
+          <div class="col-lg-6">
             <h3>Get In Touch</h3>
             <p class="lead">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
               temporibus!
             </p>
+            <form class="row row-cols-lg-auto g-3 align-items-center">
+              <div class="col-12">
+                <label class="visually-hidden" for="contactName"
+                  >Username</label
+                >
+                <div class="input-group">
+                  <div class="input-group-text">
+                    <i class="fas fa-user"></i>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="contactName"
+                    placeholder="Username"
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <label class="visually-hidden" for="contactEmail">Email</label>
+                <div class="input-group">
+                  <div class="input-group-text">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="contactEmail"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <label class="visually-hidden" for="contactMessage"
+                  >Username</label
+                >
+                <div class="input-group">
+                  <div class="input-group-text">@</div>
+                  <textarea
+                    class="form-control"
+                    id="contactMessage"
+                    placeholder="What would you like to ask us?"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-4">
+            <h3>HalfAYellowSun</h3>
+            <p>Copyright &copy; <span id="year"></span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- jquery -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"

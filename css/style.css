@@ -37,6 +37,9 @@ body {
     --bs-text-opacity: 1;
     color: inherit !important; }
 
+img {
+  max-width: 10%; }
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px; }
