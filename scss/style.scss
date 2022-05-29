@@ -32,6 +32,16 @@ body {
   }
 }
 
+.about-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 2px solid #ddd;
+}
+
+// .accordion-button{
+//   display:block;
+// }
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px;
@@ -40,5 +50,4 @@ body {
       font-size: 4rem;
     }
   }
-
 }
