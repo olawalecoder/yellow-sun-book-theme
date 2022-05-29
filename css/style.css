@@ -11,10 +11,10 @@ body {
 
 #showcase {
   position: relative;
-  background: url("../img/header-bg.jpg");
-  min-height: 600px; }
+  background: url("../img/mountains.jpg");
+  height: 600px; }
   #showcase .primary-overlay {
-    background: rgba(251, 168, 34, 0.8);
+    background: rgba(8, 8, 8, 0.9);
     position: absolute;
     top: 0;
     left: 0;
