@@ -1,4 +1,4 @@
-$primary: rgb(251, 168, 34);
+$primary: #fba822;
 $primary-overlay: rgba(251, 168, 34, 0.8);
 $dark-overlay: rgba(8, 8, 8, 0.9);
 
@@ -30,4 +30,15 @@ body {
     width: 100%;
     height: 100%;
   }
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px;
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
 }
